@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Checkpoint
+  - Player test
+  - Cube
   layers:
   - Default
   - TransparentFX
