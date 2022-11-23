@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Checkpoint
   - Player test
-  - Cube
+  - Disappear
   layers:
   - Default
   - TransparentFX
