@@ -8,6 +8,9 @@ TagManager:
   - Player test
   - Disappear
   - Laser
+  - Destroyable
+  - Checkpoint2
+  - Destroy
   layers:
   - Default
   - TransparentFX

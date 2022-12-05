@@ -14,7 +14,7 @@ public class Laser : MonoBehaviour
             if(controller != null)
             {
                 controller.enabled = false;
-                controller.transform.position = Warp point.transform.position;
+                controller.transform.position = tpdeath.transform.position;
                 controller.enabled = true;
             }
         }

@@ -6,6 +6,7 @@ public class Checkpoint : MonoBehaviour
 {
     bool firstCheckpoint = false;
     bool Checkpoint1animationplayed = false;
+    bool Checkpoint2animationplayed = false;
     private Animation checkpointanimation;
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
@@ -20,9 +21,18 @@ public class Checkpoint : MonoBehaviour
                 Checkpoint1animationplayed = true;
             }
         }
+        if (hit.gameObject.tag == "Checkpoint2")
+        {
+            if (firstCheckpoint && !Checkpoint2animationplayed)
+            {
+                checkpointanimation.Play("checkpointanimation2");
+                firstCheckpoint = true;
+                Checkpoint2animationplayed = true;
+            }
+        }
     }
 
 
-        
-    
+
+
 }
