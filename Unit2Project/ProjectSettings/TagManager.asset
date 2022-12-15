@@ -13,6 +13,9 @@ TagManager:
   - Destroy
   - Destroy2
   - Destroy3
+  - Destroy4
+  - Destroy5
+  - Destroy6
   layers:
   - Default
   - TransparentFX
