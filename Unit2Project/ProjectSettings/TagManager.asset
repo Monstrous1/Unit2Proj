@@ -11,6 +11,8 @@ TagManager:
   - Destroyable
   - Checkpoint2
   - Destroy
+  - Destroy2
+  - Destroy3
   layers:
   - Default
   - TransparentFX
